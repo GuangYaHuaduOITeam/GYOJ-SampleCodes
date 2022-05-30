@@ -47,7 +47,7 @@ int main(){
     c.index = a;
     c.total = 0;
     q.push(c);
-    check[1] = true;
+    check[a] = true;
     while(!q.empty()){
         d = q.front();
         q.pop();
